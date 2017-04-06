@@ -16,39 +16,31 @@ canvas{
 h1 {
 	font: 95px 'Kreon', serif;
 	margin: 0;
-	line-height: 55px;
+	line-height: 15px;
 	color: #333333;
 	padding-top: 60px;
+	display: flex;
+	margin-top: 10px;
 }
 h1:after{
 	border-top: 1px solid #000000;
 	content: " ";
 	display: block;
-	width: 28%;
-	position: absolute;
-	left: auto;
-	right: 0;
-	top: 1em;
-	z-index: 2;
+	flex-grow: 1;
 }
 h1:before {
 	border-top: 1px solid #000000;
 	content: " ";
 	display: block;
-	width: 28%;
-	position: absolute;
-	left: 0;
-	top: 1em;
-	z-index: 2;
+	flex-grow: 1;
 }
-
 h2 {
 	font: 350% 'Kreon', serif;
 	font-weight: normal;
 	color: #616161;
 	margin: -50px 0 25px 0;
 	z-index: 2;
-	padding-top: 70px;
+	padding-top: 95px;
 }
 h3 {
 	font-family: 'Copse', serif;
